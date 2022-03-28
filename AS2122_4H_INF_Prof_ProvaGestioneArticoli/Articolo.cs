@@ -8,8 +8,13 @@ namespace AS2122_4H_INF_Prof_ProvaGestioneArticoli
 {
     class Articolo
     {
+        int codice;
+        string descrizione;
+        string unitaMisura;
+        double prezzo;
         // TODO: (8) aggiungere attributi privati di Articolo
         // ...
+        // fatto
 
         // TODO: (9) aggiungere property di sola lettura dei dati necessari all'esterno di Articolo
         // ...
@@ -18,6 +23,7 @@ namespace AS2122_4H_INF_Prof_ProvaGestioneArticoli
         {
             // TODO: (10) impostazione costruttore classe Articolo come utilizzato da frmMain
             // ...
+
         }
 
         public string Visualizzati()
